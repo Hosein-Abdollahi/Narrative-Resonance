@@ -1,4 +1,4 @@
-# 🎨 Emotion Palette Generator
+# Narrative Resonance
 
 > *What color is your text?*
 
@@ -56,7 +56,7 @@ The app auto-selects the best available mode. All modes work offline except Prec
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/emotion-palette
-cd emotion-palette
+cd Narrative-Resonance
 
 pip install -r requirements.txt
 
@@ -79,7 +79,7 @@ Or enter your key directly in the app sidebar.
 ## Project structure
 
 ```
-emotion-palette/
+Narrative-Resonance/
 ├── app.py                  # Streamlit UI
 ├── emotion_engine.py       # Core logic (analysis + color mapping)
 ├── requirements.txt
