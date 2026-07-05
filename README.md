@@ -95,7 +95,7 @@ The whole engine is covered by a regression suite (`test_engine.py`) that pins t
 ## Run it locally
 
 ```bash
-git clone https://github.com/its-Sadb0y/Narrative-Resonance.git
+git clone https://github.com/Hosein-Abdollahi/Narrative-Resonance.git
 cd Narrative-Resonance
 pip install -r requirements.txt
 streamlit run app.py
