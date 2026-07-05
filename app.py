@@ -12,7 +12,7 @@ from emotion_engine import (
 )
 from fingerprint import build_fingerprint, fingerprint_svg
 
-REPO_URL = "https://github.com/its-Sadb0y/Narrative-Resonance"
+REPO_URL = "https://github.com/Hosein-Abdollahi/Narrative-Resonance"
 
 
 EXAMPLES = {
@@ -174,7 +174,7 @@ st.markdown("""
 /* ── Buttons: example chips (secondary) + primary CTA ── */
 .stButton button {
   font-family: var(--ui) !important; font-size: 13px !important; font-weight: 500 !important;
-  border-radius: 999px !important; padding: 5px 16px !important;
+  border-radius: 999px !important; padding: 5px 14px !important; white-space: nowrap !important;
   background: transparent !important; color: var(--muted) !important;
   border: 1px solid var(--line) !important; transition: all .15s ease !important;
 }
@@ -295,7 +295,7 @@ st.text_area(
     label_visibility="collapsed",
 )
 
-c = st.columns([0.7, 1.1, 1.1, 1.1, 2.2, 1.4])
+c = st.columns([0.55, 1.15, 1.15, 1.15, 1.6, 1.4])
 with c[0]:
     st.markdown(
         "<div style='font-family:Inter;font-size:13px;color:#9A93A8;padding-top:7px;'>Try:</div>",
